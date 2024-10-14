@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Data Table</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>User Data Table</h1>
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search by name, degree, or skill">
+                <button id="search-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </button>
+            </div>
+        </header>
+        <main>
+            <table id="user-table">
+                <thead>
+                    <tr class="data">
+                        <th data-sort="name">User Name</th>
+                        <th data-sort="degree">Degree</th>
+                        <th data-sort="skills">Skills</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="data">
+                        <td class="name">Emily Watson</td>
+                        <td class="degree">Master's</td>
+                        <td class="skills">React, Node.js, MongoDB</td>
+                    </tr>
+                    <tr class="data">
+                        <td class="name">Michael Brown</td>
+                        <td class="degree">Bachelor's</td>
+                        <td class="skills">Python, Django, PostgreSQL</td>
+                    </tr>
+                    <tr class="data">
+                        <td class="name">Sophia Turner</td>
+                         <td class="degree">PhD</td>
+                         <td class="skills">Data Analysis, R, Machine Learning</td>
+                    </tr>
+                    <tr class="data">
+                        <td class="name">William Harris</td>
+                        <td class="degree">Master's</td>
+                        <td class="skills">Vue.js, PHP, MySQL</td>
+                    </tr>
+                    <tr class="data">
+                        <td class="name">Olivia Davis</td>
+                        <td class="degree">Bachelor's</td>
+                        <td class="skills">Ruby, Rails, Docker</td>
+                    </tr>
+                    <tr class="data">
+                        <td class="name">James Carter</td>
+                        <td class="degree" >PhD</td>
+                        <td class="skills" >Go, Kubernetes, Microservices</td>
+                    </tr>
+                    <tr class="data">
+                        <td class="name">Ava Scott</td>
+                        <td class="degree">Master's</td>
+                        <td class="skills">Java, Spring Boot, Hibernate</td>
+                    </tr>
+                    <tr class="data">
+                        <td class="name">Lucas Evans</td>
+                        <td class="degree">Bachelor's</td>
+                        <td class="skills">Swift, iOS Development, ARKit</td>
+                    </tr>
+                    <tr class="data">
+                        <td class="name">Mia Wilson</td>
+                       <td  class="degree" >PhD</td>
+                        <td class="skills">Artificial Intelligence, Deep Learning, NLP</td>
+                    </tr>
+                    <tr class="data">
+                        <td class="name">Ethan Martinez</td>
+                        <td class="degree">Master's</td>
+                        <td class="skills">Angular, TypeScript, Firebase</td>
+                    </tr>
+                    <tr class="data">
+                        <td class="name">Charlotte Lee</td>
+                        <td class="degree">Bachelor's</td>
+                        <td class="skills">JavaScript, HTML5, CSS3</td>
+                    </tr>
+                    <tr class="data">
+                        <td class="name">Alexander Perez</td>
+                        <td class="degree" >PhD</td>
+                        <td class="skills" >Blockchain, Solidity, Smart Contracts</td>
+                    </tr>
+                    <tr class="data">
+                        <td class="name">Isabella Kim</td>
+                        <td class="degree">Master's</td>
+                        <td class="skills">DevOps, Jenkins, CI/CD Pipelines</td>
+                    </tr>
+                    <tr class="data">
+                        <td class="name">Henry Thompson</td>
+                        <td class="degree">Bachelor's</td>
+                        <td class="skills">Game Development, Unity, C#</td>
+                    </tr>
+                    <tr class="data">
+                        <td class="name">Amelia Rivera</td>
+                        <td class="degree" >PhD</td>
+                        <td class="skills" >Quantum Computing, Cryptography</td>
+                    </tr>
+                    <tr class="data">
+                        <td class="name">Daniel Robinson</td>
+                        <td class="degree">Master's</td>
+                        <td class="skills">React Native, Mobile App Development</td>
+                    </tr>
+                    <tr class="data">
+                        <td class="name">Grace Lewis</td>
+                        <td class="degree">Bachelor's</td>
+                        <td class="skills">UI/UX Design, Figma, Adobe XD</td>
+                    </tr>
+                    <tr class="data">
+                        <td class="name">Logan Walker</td>
+                       <td class="degree" >PhD</td>
+                        <td class="skills" >Cybersecurity, Ethical Hacking</td>
+                    </tr>
+                    <tr class="data">
+                        <td class="name">Sophia Hall</td>
+                        <td class="degree">Master's</td>
+                        <td class="skills">Database Administration, Oracle, SQL</td>
+                    </tr>
+                </tbody>
+                
+            </table>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
